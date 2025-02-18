@@ -1,0 +1,142 @@
+.welcome {
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: 200px;
+    color: black;
+    
+}
+
+#hero {
+  width: 100%;
+  height: 30vh;
+  bottom: 73.4%;
+  background:#AFE313  top center;
+  background-position: absolute
+}
+h1 {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 0.195em;
+  background: #AFE313;
+  background-position: absolute;
+
+}
+#hero2 {
+  width: 100%;
+  height: 10vh;
+  background-position: absolute;
+  background: #000000 ;
+}
+#hero2 h2 {
+  color: #ffffff;
+}
+#hero3 {
+  width: 100%;
+  height: 10vh;
+  background-position: absolute;
+  background: #000000;
+}
+
+
+* {box-sizing: border-box}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #667FD8;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 13px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn, .signinbtn {
+  
+  width: 100%;
+  
+}
+
+
+
+
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  left: 20px;
+  top: 0;
+ 
+  height: 100%; 
+  width: 95%;
+  overflow: auto;
+  background-color: #ffffff;
+  padding-top: 0px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 90%; 
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

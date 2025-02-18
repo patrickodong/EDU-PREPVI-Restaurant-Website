@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>   
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="restmenu.css">
+</head>
+<body>
+    <header ><h1 id="text">EDU-RESTAURANT MENU</h1></header>
+
+   <section>
+    <h2 style="color: darkorange;">FOODS</h2>
+<p style="color: white;">Get The Most Delicious Foods at Affordable Prices.</p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Rice</h3>
+      <img class="shop-item-image" src="rice.png" alt="Rice" style="width:100%; height: 200px;" >
+      <div class="shop-item-details">
+      
+      <span class="shop-item-price">3000shs</span><br>
+      <button class= "btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Beans</h3>
+      <img class="shop-item-image" src="beans.jpg" alt="beans" style="width:100%; height: 200px;" >
+      <div class="shop-item-details">
+     
+      <span class="shop-item-price">2500shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Beaf</h3>
+      <img class="shop-item-image" src="beef.jpg" alt="beef" style="width:100%; height: 200px;" >
+      <div class="shop-item-details">
+      
+      <span class="shop-item-price">5000shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Fish</h3>
+      <img class="shop-item-image" src="fish.jpg" alt="fish" style="width:100%; height: 200px;" >
+      <div class="shop-item-details">
+     
+      <span class="shop-item-price">7000shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section>
+<h2 style="color: darkorange;">DRINKS</h2>
+<p style="color: white;">Get The Most Quencing Drinks at Affordable Prices.</p>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Water</h3>
+      <img class="shop-item-image" src="water.jpg" alt="water" style="width:100% ; height: 231px;" >
+      <div class="shop-item-details">
+      
+      <span class="shop-item-price">2000shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Soda</h3>
+      <img class="shop-item-image" src="soda.jpg" alt="soda" style="width:100%; height: 231px;" >
+      <div class="shop-item-details">
+      <!--<p>2000shs</p>-->
+      <span class="shop-item-price">2000shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="shop-items">
+      <h3 class="shop-item-title">Juice</h3>
+      <img class="shop-item-image" src="juice.jpg" alt="juice" style="width:100%; height: 231px;" >
+      <div class="shop-item-details">
+      
+      <span class="shop-item-price">3000shs</span><br>
+      <button class="btn btn-primary shop-item-button" type="button">
+        ADD TO CART
+        </button>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    <div class="shop-items">
+    
+      <h3 class="shop-item-title">Wine</h3>
+      <img class="shop-item-image" src="wine.jpg" alt="wine" style="width:100%; height: 231px;" >
+      <div class="shop-item-details">
+      <span class="shop-item-price">5000shs</span><br>
+      <button class="btn btn-primary shop-item-button"type="button">
+        ADD TO CART
+        </button>
+        </div>
+      </div>
+    
+  </div>
+  <br>
+</div>
+<br>
+
+</section>
+	
+<!--cart section-->
+<section >
+  
+	<h2 style="color: orange;">CART</h2>
+	<div class="cart-row">
+	<span class="cart-item cart-header cart-column">Item</span>
+	<span class="cart-price cart-header cart-column">Price</span>
+	<span class="cart-quantity cart-header cart-column">Quantity</span>
+	</div>
+	<div class="cart-items"></div>
+	<div class="cart-total">
+	<strong class="cart-total-title">Total</strong>
+	<span class="cart-total-price">sh0</span>
+	</div>
+  <button class="btn btn-primary btn-purchase" type="button">Order</button> 
+  <button onclick="deliverFood()" class="btn btn-primary btn-purchase" type="button"><a href="Restaurant7.html" style="color: black;">
+Delivery</a> </button>
+  <button  class="btn btn-primary btn-purchase" type="button"><a style=" color: black;"href="Restaurant8.html">Exit</a></button> 
+	</section>
+  <!--end of cart section-->
+  <script src="restau.js" ></script>
+  
+</body>
+</html>

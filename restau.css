@@ -1,0 +1,199 @@
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  background: #FFFFFF;
+  
+
+}
+
+header{
+background-color: #AFE313;
+
+width: 100%;
+height: 15%;
+top: 121px;
+
+
+}
+#text{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+
+
+letter-spacing: 0.195em;
+text-align: center;
+color: #000000;
+}
+
+.frame6-container{
+  
+width: 100%;
+height: 358px;
+top: 121px;
+background: #A6E7FF;
+
+}
+.deliv{
+
+width: 490px;
+height: 15px;
+left: 32px;
+top: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+
+letter-spacing: 0.195em;
+text-align: center;
+
+background-color:#FFFDFD;
+border-style: solid;
+padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 30px;
+  display: flex;
+  
+
+
+}
+.pick{
+
+
+width: 490px;
+height: 14px;
+left: 32px;
+top: 167px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.195em;
+
+color: #000000;
+background-color:#FFFDFD;
+border-style: solid;
+padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 345px;
+ 
+}
+
+a:hover {
+  background-color: #AFE313;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  margin-top: 190px;
+}
+.datetime{
+   
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .datetime label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .datetime input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .delivaddress{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20px;
+  }
+  #location{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  #telephone{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+.payment{
+  display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 15px;
+}
+#subtotal{
+  margin-left: 20px;
+}
+.submit{
+  background-color: #667FD8;
+  color: #000000;
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 13px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+margin-top: 40px;
+}
+
+.submit:hover {
+  opacity:1;
+}
+.back{
+  background-color: #f1f1f1;
+  color: black;
+  margin-top: 0px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 345px;
+ 
+}
+a:hover {
+  background-color: #AFE313;
+  color: black;
+}

@@ -1,3 +1,2 @@
-# EDU-PREPVI-Restaurant-Website
-
-This is a restaurant website.
+# edu_prepvi_capstone_eclair
+# edu_prepvi_capstone_eclair
